@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://amazing-nebula-launch-hub.base44.app/sitemap.xml
