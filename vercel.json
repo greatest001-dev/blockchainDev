@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "amazing-nebula-launch-hub.base44.app/index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/amazing-nebula-launch-hub.base44.app/$1"
+    }
+  ]
+}
